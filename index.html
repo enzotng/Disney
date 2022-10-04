@@ -8,26 +8,601 @@
     <title>La Reine Des Neiges | Disneyland Paris</title>
     <link rel="icon" type="image/png" href="src/img/png/favicon.png" />
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="src/css/style.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Réserver</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="menu_toggle">
+            <div class=""></div>
+            <div></div>
+            <div></div>
+        </div>
     </header>
     <main>
-        <h1>Célébration<br>de<br>La reine des neiges</h1>
-        <a class="btn_reserver" href="#" target="_blank" rel="noopener noreferrer">Réserver</a>
+        <aside>
+            <img src="/src/img/jpg/Visuel.jpg" alt="">
+        </aside>
+        <section class="section_hero">
+            <svg class="svg1" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="246.8px" height="44.3px"
+                viewBox="0 0 246.8 44.3" style="overflow:visible;enable-background:new 0 0 246.8 44.3;"
+                xml:space="preserve">
+                <style type="text/css">
+                    .st0 {
+                        fill: #5BBEEA;
+                    }
+                </style>
+                <defs>
+                </defs>
+                <g>
+                    <path class="st0" d="M128.67,39.02c0,2.91-2.36,5.27-5.27,5.27c-2.91,0-5.27-2.36-5.27-5.27c0-2.91,2.36-5.27,5.27-5.27
+   C126.31,33.75,128.67,36.11,128.67,39.02z" />
+                    <g>
+                        <polygon class="st0" points="84.38,39.02 99.14,34.8 113.91,39.02 99.14,43.24         " />
+                        <polygon class="st0" points="162.42,39.02 147.66,43.24 132.89,39.02 147.66,34.8         " />
+                    </g>
+                    <g>
+                        <polygon class="st0" points="150.99,11.43 143.53,24.85 130.11,32.31 137.57,18.89         " />
+                    </g>
+                    <g>
+                        <polygon class="st0" points="123.4,0 127.62,14.77 123.4,29.53 119.18,14.77         " />
+                    </g>
+                    <g>
+                        <polygon class="st0" points="95.8,11.43 109.23,18.89 116.69,32.31 103.26,24.85         " />
+                    </g>
+                    <polygon class="st0" points="0,39.02 65.39,34.8 80.16,39.02 65.39,43.24     " />
+                    <polygon class="st0" points="246.8,39.02 181.41,34.8 166.64,39.02 181.41,43.24     " />
+                </g>
+            </svg>
+            <h1 class="sega titre">Avec Segafredo,</h1>
+            <h2 class="bleu titre">Embarquez pour un</h2>
+            <h3 class="rose titre">Voyage enchanté</h3>
+            <svg class="svg2" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="246.8px" height="44.3px"
+                viewBox="0 0 246.8 44.3" style="overflow:visible;enable-background:new 0 0 246.8 44.3;"
+                xml:space="preserve">
+                <style type="text/css">
+                    .st0 {
+                        fill: #5BBEEA;
+                    }
+                </style>
+                <defs>
+                </defs>
+                <g>
+                    <path class="st0" d="M128.67,39.02c0,2.91-2.36,5.27-5.27,5.27c-2.91,0-5.27-2.36-5.27-5.27c0-2.91,2.36-5.27,5.27-5.27
+C126.31,33.75,128.67,36.11,128.67,39.02z" />
+                    <g>
+                        <polygon class="st0" points="84.38,39.02 99.14,34.8 113.91,39.02 99.14,43.24         " />
+                        <polygon class="st0" points="162.42,39.02 147.66,43.24 132.89,39.02 147.66,34.8         " />
+                    </g>
+                    <g>
+                        <polygon class="st0" points="150.99,11.43 143.53,24.85 130.11,32.31 137.57,18.89         " />
+                    </g>
+                    <g>
+                        <polygon class="st0" points="123.4,0 127.62,14.77 123.4,29.53 119.18,14.77         " />
+                    </g>
+                    <g>
+                        <polygon class="st0" points="95.8,11.43 109.23,18.89 116.69,32.31 103.26,24.85         " />
+                    </g>
+                    <polygon class="st0" points="0,39.02 65.39,34.8 80.16,39.02 65.39,43.24     " />
+                    <polygon class="st0" points="246.8,39.02 181.41,34.8 166.64,39.02 181.41,43.24     " />
+                </g>
+            </svg>
+            <p class="sega padding">Café officiel de <span class="rose texte">Disneyland Paris ®</span>, Segafredo vous
+                invite à
+                découvrir la<span class="texte"> Célébration de La Reine des Neiges</span>et à gagner avec Intermezzo
+                des moments
+                inoubliables à partager !</p>
+            <div class="btn_reserver">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                    y="0px" width="46.25px" height="31.31px" viewBox="0 0 46.25 31.31"
+                    style="overflow:visible;enable-background:new 0 0 46.25 31.31;" xml:space="preserve">
+                    <style type="text/css">
+                        .st0 {
+                            fill: #2581C4;
+                        }
+                    </style>
+                    <defs>
+                    </defs>
+                    <g>
+                        <path class="st0"
+                            d="M42.29,15.51l-2.93-0.01l0-0.01L18.81,0.01L18.8,0c7,2.58,19.16,7.06,27.42,10.11L42.29,15.51z" />
+                        <path class="st0"
+                            d="M46.25,21.32c-8.28,3-20.52,7.44-27.55,9.98l0.01-0.01l20.65-15.29l0-0.03l3.05,0.01L46.25,21.32z" />
+                        <path class="st0" d="M39.28,15.74c0,0.07,0.03,0.13,0.08,0.17l0,0.06l-4.23-0.01l-21.93,9.6l9.91-9.61
+                   c0.02,0.01,0.03,0.01,0.05,0.01l11.81,0.04c0.13,0,0.24-0.1,0.24-0.23c0-0.13-0.1-0.24-0.23-0.23l-11.81-0.04
+                   c-0.13,0-0.24,0.1-0.24,0.23c0,0.09,0.05,0.15,0.11,0.19l-3.55,0.01l-4.37,3.58l-2.51-2.09l0,0c0-0.01-0.01-0.01-0.01-0.02
+                   c-0.02-0.03-0.05-0.05-0.08-0.07c-0.01-0.01-0.02,0-0.02,0c-0.03-0.02-0.07-0.02-0.11-0.02c-0.01,0-0.01-0.01-0.02,0l-0.03,0.01
+                   L12,17.39l-0.17,0.04l-2.39,0.41l-0.14,0.02l-0.32,0.06l-0.01,0c-0.04,0.01-0.07,0.03-0.1,0.05c-0.02,0.02-0.05,0.05-0.05,0.08
+                   H8.79l-0.73,1.69L0,15.91l5.81,0.02l-0.14-0.1l-0.19-0.13l0.2-0.14l0.14-0.1l-5.78-0.02l8.17-3.74l0.63,1.56l0,0.02
+                   c0.01,0.03,0.02,0.05,0.03,0.06c0,0.02,0.01,0.03,0.02,0.04c0.03,0.03,0.05,0.05,0.09,0.06c0.02,0,0.03,0.01,0.05,0.02l0.32,0.05
+                   l0.15,0.03l2.45,0.42l0.16,0.03l0.35,0.06l0.01,0h0.03c0.02,0.01,0.05,0,0.07,0c0.03,0,0.06-0.02,0.09-0.03
+                   c0.01-0.01,0.01-0.01,0.02-0.01c0.01,0,0.01-0.01,0.01-0.01l2.48-2.04l4.09,3.49l3.73,0.02l-9.73-9.68l21.73,9.71l4.37,0.01l0,0.07
+                   C39.31,15.62,39.28,15.68,39.28,15.74" />
+                    </g>
+                </svg>
+                <button class="participe" href="#" target="_self">Participez !</button>
+                <svg class="svg3" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="46.25px" height="31.31px"
+                    viewBox="0 0 46.25 31.31" style="overflow:visible;enable-background:new 0 0 46.25 31.31;"
+                    xml:space="preserve">
+                    <style type="text/css">
+                        .st0 {
+                            fill: #2581C4;
+                        }
+                    </style>
+                    <defs>
+                    </defs>
+                    <g>
+                        <path class="st0"
+                            d="M42.29,15.51l-2.93-0.01l0-0.01L18.81,0.01L18.8,0c7,2.58,19.16,7.06,27.42,10.11L42.29,15.51z" />
+                        <path class="st0"
+                            d="M46.25,21.32c-8.28,3-20.52,7.44-27.55,9.98l0.01-0.01l20.65-15.29l0-0.03l3.05,0.01L46.25,21.32z" />
+                        <path class="st0" d="M39.28,15.74c0,0.07,0.03,0.13,0.08,0.17l0,0.06l-4.23-0.01l-21.93,9.6l9.91-9.61
+              c0.02,0.01,0.03,0.01,0.05,0.01l11.81,0.04c0.13,0,0.24-0.1,0.24-0.23c0-0.13-0.1-0.24-0.23-0.23l-11.81-0.04
+              c-0.13,0-0.24,0.1-0.24,0.23c0,0.09,0.05,0.15,0.11,0.19l-3.55,0.01l-4.37,3.58l-2.51-2.09l0,0c0-0.01-0.01-0.01-0.01-0.02
+              c-0.02-0.03-0.05-0.05-0.08-0.07c-0.01-0.01-0.02,0-0.02,0c-0.03-0.02-0.07-0.02-0.11-0.02c-0.01,0-0.01-0.01-0.02,0l-0.03,0.01
+              L12,17.39l-0.17,0.04l-2.39,0.41l-0.14,0.02l-0.32,0.06l-0.01,0c-0.04,0.01-0.07,0.03-0.1,0.05c-0.02,0.02-0.05,0.05-0.05,0.08
+              H8.79l-0.73,1.69L0,15.91l5.81,0.02l-0.14-0.1l-0.19-0.13l0.2-0.14l0.14-0.1l-5.78-0.02l8.17-3.74l0.63,1.56l0,0.02
+              c0.01,0.03,0.02,0.05,0.03,0.06c0,0.02,0.01,0.03,0.02,0.04c0.03,0.03,0.05,0.05,0.09,0.06c0.02,0,0.03,0.01,0.05,0.02l0.32,0.05
+              l0.15,0.03l2.45,0.42l0.16,0.03l0.35,0.06l0.01,0h0.03c0.02,0.01,0.05,0,0.07,0c0.03,0,0.06-0.02,0.09-0.03
+              c0.01-0.01,0.01-0.01,0.02-0.01c0.01,0,0.01-0.01,0.01-0.01l2.48-2.04l4.09,3.49l3.73,0.02l-9.73-9.68l21.73,9.71l4.37,0.01l0,0.07
+              C39.31,15.62,39.28,15.68,39.28,15.74" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <section class="section_corps">
+            <h1 class="bleu titre">Embarquez pour un</h1>
+            <h2 class="rose titre">Voyage enchanté</h2>
+            <div class="m-2 text-center">
+                <p class="bleu paragraphe">Du 11 janvier au 3 mai 2020,</p>
+                <p class="rose paragraphe">Embarquez pour un voyage enchanté<br>aux côtés d'Elsa, Anna et leurs amis</p>
+                <p class="bleu paragraphe">Avec la célébration de la reine des neiges</p>
+                <p class="rose paragraphe">Pour la première fois à Disneyland Paris ®</p>
+            </div>
+            <p class="sega padding">Laissez-vous emporter dans une tempête d'émotions devant la légende de la Reine des
+                Neiges
+                qui prend vie sous vos yeux. Rejoignez l'aventure dans les 2 parcs Disney® et vivez des moments de magie
+                qui resteront gravés à jamais.</p>
+            <img class="padding" src="/src/img/png/IMG-Palais.png" alt="">
+            <p class="sega padding">Rendez-vous dans le Parc Walt Disney Studios® pour un voyage inoubliable au royaume
+                d'Arendelle !
+                Apprenez des mouvements magiques avec Anna et Kristoff et terminez en beauté en chantant le titre
+                mythique <span class="rose texte fst-italic">Libérée délivrée</span> en cœur avec Elsa !</p>
+
+            <img class="padding" src="/src/img/png/IMG-Maison.png" alt="">
+            <svg class="svg1" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="246.8px" height="44.3px"
+                viewBox="0 0 246.8 44.3" style="overflow:visible;enable-background:new 0 0 246.8 44.3;"
+                xml:space="preserve">
+                <style type="text/css">
+                    .st0 {
+                        fill: #5BBEEA;
+                    }
+                </style>
+                <defs>
+                </defs>
+                <g>
+                    <path class="st0" d="M128.67,39.02c0,2.91-2.36,5.27-5.27,5.27c-2.91,0-5.27-2.36-5.27-5.27c0-2.91,2.36-5.27,5.27-5.27
+   C126.31,33.75,128.67,36.11,128.67,39.02z" />
+                    <g>
+                        <polygon class="st0" points="84.38,39.02 99.14,34.8 113.91,39.02 99.14,43.24         " />
+                        <polygon class="st0" points="162.42,39.02 147.66,43.24 132.89,39.02 147.66,34.8         " />
+                    </g>
+                    <g>
+                        <polygon class="st0" points="150.99,11.43 143.53,24.85 130.11,32.31 137.57,18.89         " />
+                    </g>
+                    <g>
+                        <polygon class="st0" points="123.4,0 127.62,14.77 123.4,29.53 119.18,14.77         " />
+                    </g>
+                    <g>
+                        <polygon class="st0" points="95.8,11.43 109.23,18.89 116.69,32.31 103.26,24.85         " />
+                    </g>
+                    <polygon class="st0" points="0,39.02 65.39,34.8 80.16,39.02 65.39,43.24     " />
+                    <polygon class="st0" points="246.8,39.02 181.41,34.8 166.64,39.02 181.41,43.24     " />
+                </g>
+            </svg>
+            <h1 class="bleu titre">Fondez pour</h1>
+            <h2 class="rose titre">Les lots mis en jeu !</h2>
+            <svg class="svg2" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="246.8px" height="44.3px"
+                viewBox="0 0 246.8 44.3" style="overflow:visible;enable-background:new 0 0 246.8 44.3;"
+                xml:space="preserve">
+                <style type="text/css">
+                    .st0 {
+                        fill: #5BBEEA;
+                    }
+                </style>
+                <defs>
+                </defs>
+                <g>
+                    <path class="st0" d="M128.67,39.02c0,2.91-2.36,5.27-5.27,5.27c-2.91,0-5.27-2.36-5.27-5.27c0-2.91,2.36-5.27,5.27-5.27
+C126.31,33.75,128.67,36.11,128.67,39.02z" />
+                    <g>
+                        <polygon class="st0" points="84.38,39.02 99.14,34.8 113.91,39.02 99.14,43.24         " />
+                        <polygon class="st0" points="162.42,39.02 147.66,43.24 132.89,39.02 147.66,34.8         " />
+                    </g>
+                    <g>
+                        <polygon class="st0" points="150.99,11.43 143.53,24.85 130.11,32.31 137.57,18.89         " />
+                    </g>
+                    <g>
+                        <polygon class="st0" points="123.4,0 127.62,14.77 123.4,29.53 119.18,14.77         " />
+                    </g>
+                    <g>
+                        <polygon class="st0" points="95.8,11.43 109.23,18.89 116.69,32.31 103.26,24.85         " />
+                    </g>
+                    <polygon class="st0" points="0,39.02 65.39,34.8 80.16,39.02 65.39,43.24     " />
+                    <polygon class="st0" points="246.8,39.02 181.41,34.8 166.64,39.02 181.41,43.24     " />
+                </g>
+            </svg>
+            <h3 class="rose sous_titre">Un séjour à Disneyland® Paris</h3>
+            <h3 class="bleu sous_titre">Pour 4 personnes*</h3>
+            <p class="sega padding2">A l'occasion de <span class="rose texte">la Célébration de la Reine des
+                    Neiges</span>, embarquez pour un voyage extraordinaire à travers une nature féerique. Tentez de
+                gagner le plus enchanté des séjours à Disneyland Paris et vivez des moments magiques en compagnie
+                d'Elsa, Anna, Olaf et leurs amis. De nombreuses surprises féériques vous attendent...</p>
+            <small class="rose texte text-center">* Billets 2 jours pour les parcs Disney® + hébergement</small>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                y="0px" width="202.5px" height="9.38px" viewBox="0 0 202.5 9.38"
+                style="overflow:visible;enable-background:new 0 0 202.5 9.38;" xml:space="preserve">
+                <style type="text/css">
+                    .st0 {
+                        fill: #5BBEEA;
+                    }
+                </style>
+                <defs>
+                </defs>
+                <g>
+                    <circle class="st0" cx="101.25" cy="4.69" r="4.69" />
+                    <g>
+                        <polygon class="st0" points="22.5,4.69 25.62,2.74 28.75,4.69 25.62,6.64         " />
+                        <polygon class="st0" points="0,4.69 16.88,2.74 20,4.69 16.88,6.64         " />
+                        <polygon class="st0" points="93.75,4.69 56.88,2.74 48.75,4.69 56.88,6.64         " />
+                        <polygon class="st0" points="30.36,4.69 37.86,2.54 45.36,4.69 37.86,6.83         " />
+                    </g>
+                    <g>
+                        <polygon class="st0" points="180,4.69 176.88,2.74 173.75,4.69 176.88,6.64         " />
+                        <polygon class="st0" points="202.5,4.69 185.62,2.74 182.5,4.69 185.62,6.64         " />
+                        <polygon class="st0" points="108.75,4.69 145.62,2.74 153.75,4.69 145.62,6.64         " />
+                        <polygon class="st0" points="172.14,4.69 164.64,2.54 157.14,4.69 164.64,6.83         " />
+                    </g>
+                </g>
+            </svg>
+            <h3 class="rose sous_titre">Des entrées pour 2 personnes</h3>
+            <h3 class="bleu sous_titre">A Disneyland® Paris</h3>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                y="0px" width="202.5px" height="9.38px" viewBox="0 0 202.5 9.38"
+                style="overflow:visible;enable-background:new 0 0 202.5 9.38;" xml:space="preserve">
+                <style type="text/css">
+                    .st0 {
+                        fill: #5BBEEA;
+                    }
+                </style>
+                <defs>
+                </defs>
+                <g>
+                    <circle class="st0" cx="101.25" cy="4.69" r="4.69" />
+                    <g>
+                        <polygon class="st0" points="22.5,4.69 25.62,2.74 28.75,4.69 25.62,6.64         " />
+                        <polygon class="st0" points="0,4.69 16.88,2.74 20,4.69 16.88,6.64         " />
+                        <polygon class="st0" points="93.75,4.69 56.88,2.74 48.75,4.69 56.88,6.64         " />
+                        <polygon class="st0" points="30.36,4.69 37.86,2.54 45.36,4.69 37.86,6.83         " />
+                    </g>
+                    <g>
+                        <polygon class="st0" points="180,4.69 176.88,2.74 173.75,4.69 176.88,6.64         " />
+                        <polygon class="st0" points="202.5,4.69 185.62,2.74 182.5,4.69 185.62,6.64         " />
+                        <polygon class="st0" points="108.75,4.69 145.62,2.74 153.75,4.69 145.62,6.64         " />
+                        <polygon class="st0" points="172.14,4.69 164.64,2.54 157.14,4.69 164.64,6.83         " />
+                    </g>
+                </g>
+            </svg>
+            <h3 class="rose sous_titre">50 " Fan Box "</h3>
+            <p class="sega">Composée de :</p>
+            <ul class="sega compose padding">
+                <li class="texte">1 lot de 2 mugs</li>
+                <li class="texte">2 paquets de café (1 Intermezzo + 1 Espresso Casa)</li>
+                <li class="texte">1 bon de réduction</li>
+            </ul>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                y="0px" width="202.5px" height="9.38px" viewBox="0 0 202.5 9.38"
+                style="overflow:visible;enable-background:new 0 0 202.5 9.38;" xml:space="preserve">
+                <style type="text/css">
+                    .st0 {
+                        fill: #5BBEEA;
+                    }
+                </style>
+                <defs>
+                </defs>
+                <g>
+                    <circle class="st0" cx="101.25" cy="4.69" r="4.69" />
+                    <g>
+                        <polygon class="st0" points="22.5,4.69 25.62,2.74 28.75,4.69 25.62,6.64         " />
+                        <polygon class="st0" points="0,4.69 16.88,2.74 20,4.69 16.88,6.64         " />
+                        <polygon class="st0" points="93.75,4.69 56.88,2.74 48.75,4.69 56.88,6.64         " />
+                        <polygon class="st0" points="30.36,4.69 37.86,2.54 45.36,4.69 37.86,6.83         " />
+                    </g>
+                    <g>
+                        <polygon class="st0" points="180,4.69 176.88,2.74 173.75,4.69 176.88,6.64         " />
+                        <polygon class="st0" points="202.5,4.69 185.62,2.74 182.5,4.69 185.62,6.64         " />
+                        <polygon class="st0" points="108.75,4.69 145.62,2.74 153.75,4.69 145.62,6.64         " />
+                        <polygon class="st0" points="172.14,4.69 164.64,2.54 157.14,4.69 164.64,6.83         " />
+                    </g>
+                </g>
+            </svg>
+            <h3 class="rose sous_titre">1000 Bons de réduction</h3>
+            <p class="sega padding">A valoir sur votre prochain achat de café Segafredo.</p>
+            <svg class="svg1" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="246.8px" height="44.3px"
+                viewBox="0 0 246.8 44.3" style="overflow:visible;enable-background:new 0 0 246.8 44.3;"
+                xml:space="preserve">
+                <style type="text/css">
+                    .st0 {
+                        fill: #5BBEEA;
+                    }
+                </style>
+                <defs>
+                </defs>
+                <g>
+                    <path class="st0" d="M128.67,39.02c0,2.91-2.36,5.27-5.27,5.27c-2.91,0-5.27-2.36-5.27-5.27c0-2.91,2.36-5.27,5.27-5.27
+   C126.31,33.75,128.67,36.11,128.67,39.02z" />
+                    <g>
+                        <polygon class="st0" points="84.38,39.02 99.14,34.8 113.91,39.02 99.14,43.24         " />
+                        <polygon class="st0" points="162.42,39.02 147.66,43.24 132.89,39.02 147.66,34.8         " />
+                    </g>
+                    <g>
+                        <polygon class="st0" points="150.99,11.43 143.53,24.85 130.11,32.31 137.57,18.89         " />
+                    </g>
+                    <g>
+                        <polygon class="st0" points="123.4,0 127.62,14.77 123.4,29.53 119.18,14.77         " />
+                    </g>
+                    <g>
+                        <polygon class="st0" points="95.8,11.43 109.23,18.89 116.69,32.31 103.26,24.85         " />
+                    </g>
+                    <polygon class="st0" points="0,39.02 65.39,34.8 80.16,39.02 65.39,43.24     " />
+                    <polygon class="st0" points="246.8,39.02 181.41,34.8 166.64,39.02 181.41,43.24     " />
+                </g>
+            </svg>
+            <h3 class="rose titre">Dégivrez !</h3>
+            <svg class="svg2" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="246.8px" height="44.3px"
+                viewBox="0 0 246.8 44.3" style="overflow:visible;enable-background:new 0 0 246.8 44.3;"
+                xml:space="preserve">
+                <style type="text/css">
+                    .st0 {
+                        fill: #5BBEEA;
+                    }
+                </style>
+                <defs>
+                </defs>
+                <g>
+                    <path class="st0" d="M128.67,39.02c0,2.91-2.36,5.27-5.27,5.27c-2.91,0-5.27-2.36-5.27-5.27c0-2.91,2.36-5.27,5.27-5.27
+C126.31,33.75,128.67,36.11,128.67,39.02z" />
+                    <g>
+                        <polygon class="st0" points="84.38,39.02 99.14,34.8 113.91,39.02 99.14,43.24         " />
+                        <polygon class="st0" points="162.42,39.02 147.66,43.24 132.89,39.02 147.66,34.8         " />
+                    </g>
+                    <g>
+                        <polygon class="st0" points="150.99,11.43 143.53,24.85 130.11,32.31 137.57,18.89         " />
+                    </g>
+                    <g>
+                        <polygon class="st0" points="123.4,0 127.62,14.77 123.4,29.53 119.18,14.77         " />
+                    </g>
+                    <g>
+                        <polygon class="st0" points="95.8,11.43 109.23,18.89 116.69,32.31 103.26,24.85         " />
+                    </g>
+                    <polygon class="st0" points="0,39.02 65.39,34.8 80.16,39.02 65.39,43.24     " />
+                    <polygon class="st0" points="246.8,39.02 181.41,34.8 166.64,39.02 181.41,43.24     " />
+                </g>
+            </svg>
+            <div class="m-2 text-center">
+                <p class="bleu paragraphe">Avec Segafredo</p>
+                <p class="rose paragraphe">Faites fondre la glace</p>
+                <p class="bleu paragraphe">Pour découvrir si vous avez gagné.</p>
+            </div>
+            <p class="sega padding2">Rien de tel qu'un café Segafredo pour réchauffer l'hiver !</p>
+            <p class="sega padding2">Faites glisser de gauche à droite et de droite à gauche votre tasse pour faire
+                fondre la
+                glace.</p>
+            <p class="sega padding2">Et découvrez comme par enchantement si vous avez gagné l'un des lots mis en jeu par
+                instants gagnants !</p>
+            <p class="sega padding2">Que vous ayez gagné ou perdu, vous participez au tirage au sort final qui désignera
+                le
+                gagnant d'un séjour pour 4 personnes à Disneyland® Paris.</p>
+            <small class="rose texte">Une participation par foyer et par jour</small>
+            <svg class="svg2" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="246.8px" height="44.3px"
+                viewBox="0 0 246.8 44.3" style="overflow:visible;enable-background:new 0 0 246.8 44.3;"
+                xml:space="preserve">
+                <style type="text/css">
+                    .st0 {
+                        fill: #5BBEEA;
+                    }
+                </style>
+                <defs>
+                </defs>
+                <g>
+                    <path class="st0" d="M128.67,39.02c0,2.91-2.36,5.27-5.27,5.27c-2.91,0-5.27-2.36-5.27-5.27c0-2.91,2.36-5.27,5.27-5.27
+C126.31,33.75,128.67,36.11,128.67,39.02z" />
+                    <g>
+                        <polygon class="st0" points="84.38,39.02 99.14,34.8 113.91,39.02 99.14,43.24         " />
+                        <polygon class="st0" points="162.42,39.02 147.66,43.24 132.89,39.02 147.66,34.8         " />
+                    </g>
+                    <g>
+                        <polygon class="st0" points="150.99,11.43 143.53,24.85 130.11,32.31 137.57,18.89         " />
+                    </g>
+                    <g>
+                        <polygon class="st0" points="123.4,0 127.62,14.77 123.4,29.53 119.18,14.77         " />
+                    </g>
+                    <g>
+                        <polygon class="st0" points="95.8,11.43 109.23,18.89 116.69,32.31 103.26,24.85         " />
+                    </g>
+                    <polygon class="st0" points="0,39.02 65.39,34.8 80.16,39.02 65.39,43.24     " />
+                    <polygon class="st0" points="246.8,39.02 181.41,34.8 166.64,39.02 181.41,43.24     " />
+                </g>
+            </svg>
+            <form class="formulaire" action="post">
+                <label>Prénom</label>
+                <input type="text">
+                <label>Nom</label>
+                <input type="text">
+                <label>Date de naissance</label>
+                <input type="date">
+                <label>Adresse e-mail</label>
+                <input type="email">
+                <label>Adresse postale</label>
+                <input type="text">
+                <label>Code postal</label>
+                <input type="text" maxlength="5">
+                <label>Combien font 3 plus 2 ?</label>
+                <input type="text">
+                <small class="rose texte text-center">(Afin de nous montrer que vous n'êtes pas un robot)</small>
+                <div class="form_check">
+                    <div class="control-group">
+                        <label class="control control-checkbox">
+                            <p class="bleu">J'accepte le traitement de mes données personnelles conformément au présent formulaire et déclare avoir lu et accepté le <a class="ros" href="">règlement du jeu</a></p>
+                        <input type="checkbox" name="" id="">
+                        <div class="control_indicator"></div>
+                        </label>
+                        <label class="control control-checkbox">
+                            <p class="bleu">Oui ! J'accepte de recevoir par mail des informations de Segafredo et de ses marques partenaires via la newsletter <a class="ros" href="">segafredo.fr</a></p>
+                            <input type="checkbox" />
+                            <div class="control_indicator"></div>
+                        </label>
+                        <label class="control control-checkbox">
+                            <p class="bleu">Oui ! J'accepte de recevoir par email des offres spéciales et des informations concernant Disneyland® Paris et les autres produits et services du groupe d'entreprises Walt Disney.</p>
+                            <input type="checkbox" />
+                            <div class="control_indicator"></div>
+                        </label>
+                    </div>
+                </div>
+                <div class="btn_reserver">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                        y="0px" width="46.25px" height="31.31px" viewBox="0 0 46.25 31.31"
+                        style="overflow:visible;enable-background:new 0 0 46.25 31.31;" xml:space="preserve">
+                        <style type="text/css">
+                            .st0 {
+                                fill: #2581C4;
+                            }
+                        </style>
+                        <defs>
+                        </defs>
+                        <g>
+                            <path class="st0"
+                                d="M42.29,15.51l-2.93-0.01l0-0.01L18.81,0.01L18.8,0c7,2.58,19.16,7.06,27.42,10.11L42.29,15.51z" />
+                            <path class="st0"
+                                d="M46.25,21.32c-8.28,3-20.52,7.44-27.55,9.98l0.01-0.01l20.65-15.29l0-0.03l3.05,0.01L46.25,21.32z" />
+                            <path class="st0" d="M39.28,15.74c0,0.07,0.03,0.13,0.08,0.17l0,0.06l-4.23-0.01l-21.93,9.6l9.91-9.61
+                       c0.02,0.01,0.03,0.01,0.05,0.01l11.81,0.04c0.13,0,0.24-0.1,0.24-0.23c0-0.13-0.1-0.24-0.23-0.23l-11.81-0.04
+                       c-0.13,0-0.24,0.1-0.24,0.23c0,0.09,0.05,0.15,0.11,0.19l-3.55,0.01l-4.37,3.58l-2.51-2.09l0,0c0-0.01-0.01-0.01-0.01-0.02
+                       c-0.02-0.03-0.05-0.05-0.08-0.07c-0.01-0.01-0.02,0-0.02,0c-0.03-0.02-0.07-0.02-0.11-0.02c-0.01,0-0.01-0.01-0.02,0l-0.03,0.01
+                       L12,17.39l-0.17,0.04l-2.39,0.41l-0.14,0.02l-0.32,0.06l-0.01,0c-0.04,0.01-0.07,0.03-0.1,0.05c-0.02,0.02-0.05,0.05-0.05,0.08
+                       H8.79l-0.73,1.69L0,15.91l5.81,0.02l-0.14-0.1l-0.19-0.13l0.2-0.14l0.14-0.1l-5.78-0.02l8.17-3.74l0.63,1.56l0,0.02
+                       c0.01,0.03,0.02,0.05,0.03,0.06c0,0.02,0.01,0.03,0.02,0.04c0.03,0.03,0.05,0.05,0.09,0.06c0.02,0,0.03,0.01,0.05,0.02l0.32,0.05
+                       l0.15,0.03l2.45,0.42l0.16,0.03l0.35,0.06l0.01,0h0.03c0.02,0.01,0.05,0,0.07,0c0.03,0,0.06-0.02,0.09-0.03
+                       c0.01-0.01,0.01-0.01,0.02-0.01c0.01,0,0.01-0.01,0.01-0.01l2.48-2.04l4.09,3.49l3.73,0.02l-9.73-9.68l21.73,9.71l4.37,0.01l0,0.07
+                       C39.31,15.62,39.28,15.68,39.28,15.74" />
+                        </g>
+                    </svg>
+                    <button class="participe" href="#" target="_self">Jouer !</button>
+                    <svg class="svg3" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="46.25px" height="31.31px"
+                        viewBox="0 0 46.25 31.31" style="overflow:visible;enable-background:new 0 0 46.25 31.31;"
+                        xml:space="preserve">
+                        <style type="text/css">
+                            .st0 {
+                                fill: #2581C4;
+                            }
+                        </style>
+                        <defs>
+                        </defs>
+                        <g>
+                            <path class="st0"
+                                d="M42.29,15.51l-2.93-0.01l0-0.01L18.81,0.01L18.8,0c7,2.58,19.16,7.06,27.42,10.11L42.29,15.51z" />
+                            <path class="st0"
+                                d="M46.25,21.32c-8.28,3-20.52,7.44-27.55,9.98l0.01-0.01l20.65-15.29l0-0.03l3.05,0.01L46.25,21.32z" />
+                            <path class="st0" d="M39.28,15.74c0,0.07,0.03,0.13,0.08,0.17l0,0.06l-4.23-0.01l-21.93,9.6l9.91-9.61
+                  c0.02,0.01,0.03,0.01,0.05,0.01l11.81,0.04c0.13,0,0.24-0.1,0.24-0.23c0-0.13-0.1-0.24-0.23-0.23l-11.81-0.04
+                  c-0.13,0-0.24,0.1-0.24,0.23c0,0.09,0.05,0.15,0.11,0.19l-3.55,0.01l-4.37,3.58l-2.51-2.09l0,0c0-0.01-0.01-0.01-0.01-0.02
+                  c-0.02-0.03-0.05-0.05-0.08-0.07c-0.01-0.01-0.02,0-0.02,0c-0.03-0.02-0.07-0.02-0.11-0.02c-0.01,0-0.01-0.01-0.02,0l-0.03,0.01
+                  L12,17.39l-0.17,0.04l-2.39,0.41l-0.14,0.02l-0.32,0.06l-0.01,0c-0.04,0.01-0.07,0.03-0.1,0.05c-0.02,0.02-0.05,0.05-0.05,0.08
+                  H8.79l-0.73,1.69L0,15.91l5.81,0.02l-0.14-0.1l-0.19-0.13l0.2-0.14l0.14-0.1l-5.78-0.02l8.17-3.74l0.63,1.56l0,0.02
+                  c0.01,0.03,0.02,0.05,0.03,0.06c0,0.02,0.01,0.03,0.02,0.04c0.03,0.03,0.05,0.05,0.09,0.06c0.02,0,0.03,0.01,0.05,0.02l0.32,0.05
+                  l0.15,0.03l2.45,0.42l0.16,0.03l0.35,0.06l0.01,0h0.03c0.02,0.01,0.05,0,0.07,0c0.03,0,0.06-0.02,0.09-0.03
+                  c0.01-0.01,0.01-0.01,0.02-0.01c0.01,0,0.01-0.01,0.01-0.01l2.48-2.04l4.09,3.49l3.73,0.02l-9.73-9.68l21.73,9.71l4.37,0.01l0,0.07
+                  C39.31,15.62,39.28,15.68,39.28,15.74" />
+                        </g>
+                    </svg>
+                </div>
+            </form>
+        </section>
     </main>
     <footer>
-        <p>Copyright © 2022 Disneyland Paris. All Rights Reserved.</p>
+        <a class="p-2 bleu_clair" href="http://">Règlement</a><svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15.75px" height="27.75px"
+            viewBox="0 0 15.75 27.75" style="overflow:visible;enable-background:new 0 0 15.75 27.75;"
+            xml:space="preserve">
+            <style type="text/css">
+                .st0 {
+                    fill: #DD78A6;
+                }
+            </style>
+            <defs>
+            </defs>
+            <g>
+                <circle class="st0" cx="13.88" cy="13.88" r="1.88" />
+                <g>
+                    <polygon class="st0" points="13.88,27.75 12.38,22.5 13.88,17.25 15.38,22.5         " />
+                    <polygon class="st0" points="13.88,0 15.38,5.25 13.88,10.5 12.38,5.25         " />
+                </g>
+                <g>
+                    <polygon class="st0" points="4.06,4.06 8.84,6.72 11.49,11.49 6.72,8.84         " />
+                </g>
+                <g>
+                    <polygon class="st0" points="0,13.88 5.25,12.38 10.5,13.88 5.25,15.38         " />
+                </g>
+                <g>
+                    <polygon class="st0" points="4.06,23.69 6.72,18.91 11.49,16.26 8.84,21.03         " />
+                </g>
+            </g>
+        </svg>
+        <a class="p-2 bleu_clair" href="http://">Mentions légales</a>
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            width="15.75px" height="27.75px" viewBox="0 0 15.75 27.75"
+            style="overflow:visible;enable-background:new 0 0 15.75 27.75;" xml:space="preserve">
+            <style type="text/css">
+                .st0 {
+                    fill: #DD78A6;
+                }
+            </style>
+            <defs>
+            </defs>
+            <g>
+                <circle class="st0" cx="13.88" cy="13.88" r="1.88" />
+                <g>
+                    <polygon class="st0" points="13.88,27.75 12.38,22.5 13.88,17.25 15.38,22.5         " />
+                    <polygon class="st0" points="13.88,0 15.38,5.25 13.88,10.5 12.38,5.25         " />
+                </g>
+                <g>
+                    <polygon class="st0" points="4.06,4.06 8.84,6.72 11.49,11.49 6.72,8.84         " />
+                </g>
+                <g>
+                    <polygon class="st0" points="0,13.88 5.25,12.38 10.5,13.88 5.25,15.38         " />
+                </g>
+                <g>
+                    <polygon class="st0" points="4.06,23.69 6.72,18.91 11.49,16.26 8.84,21.03         " />
+                </g>
+            </g>
+        </svg>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 
 </body>
 
