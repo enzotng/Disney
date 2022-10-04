@@ -1,0 +1,25 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15.75px"
+     height="27.75px" viewBox="0 0 15.75 27.75" style="overflow:visible;enable-background:new 0 0 15.75 27.75;"
+     xml:space="preserve">
+<style type="text/css">
+    .st0{fill:#DD78A6;}
+</style>
+<defs>
+</defs>
+<g>
+    <circle class="st0" cx="13.88" cy="13.88" r="1.88"/>
+    <g>
+        <polygon class="st0" points="13.88,27.75 12.38,22.5 13.88,17.25 15.38,22.5         "/>
+        <polygon class="st0" points="13.88,0 15.38,5.25 13.88,10.5 12.38,5.25         "/>
+    </g>
+    <g>
+        <polygon class="st0" points="4.06,4.06 8.84,6.72 11.49,11.49 6.72,8.84         "/>
+    </g>
+    <g>
+        <polygon class="st0" points="0,13.88 5.25,12.38 10.5,13.88 5.25,15.38         "/>
+    </g>
+    <g>
+        <polygon class="st0" points="4.06,23.69 6.72,18.91 11.49,16.26 8.84,21.03         "/>
+    </g>
+</g>
+</svg>

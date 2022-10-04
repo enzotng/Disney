@@ -1,0 +1,351 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    font-family: "Neutra Display";
+    box-sizing: border-box;
+}
+
+:root {
+    --rose: #a1176b;
+    --bleu: #2581c4;
+    --sega: #00466b;
+    --bleu-clair: #5bbeea;
+}
+
+@font-face {
+    font-family: "Arial Regular";
+    src: url("../fonts/ArialMT.woff2") format("woff2"), url("../fonts/ArialMT.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Neutra Display";
+    src: url("../fonts/NeutraDisp-Bold.woff2") format("woff2"), url("../fonts/NeutraDisp-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Arial Italic";
+    src: url("../fonts/Arial-ItalicMT.woff2") format("woff2"), url("../fonts/Arial-ItalicMT.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url("../img/png/Glace-fond-nav-04.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+aside {
+    /* position: relative;
+    float: left;
+    width: 30vw;
+    top: 0px;
+    bottom: 0px; */
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.section_hero {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: justify;
+}
+
+.section_corps {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.section_corps > img {
+    width: 100%;
+}
+
+.bleu {
+    color: var(--bleu);
+}
+
+.bleu_clair {
+    color: var(--bleu-clair);
+    text-transform: uppercase;
+}
+
+.titre {
+    font-size: 2em;
+}
+
+.sous_titre {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.rose {
+    color: var(--rose);
+}
+
+.sega {
+    color: var(--sega);
+    font-family: "Arial Regular";
+    text-align: justify;
+}
+
+.participe {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: var(--rose);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.participe:hover {
+    text-transform: uppercase;
+    color: var(--bleu);
+}
+
+.texte {
+    font-family: "Arial Regular";
+}
+
+.paragraphe {
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+svg {
+    margin: 20px;
+}
+
+.svg2 {
+    transform: rotate(180deg);
+}
+
+.svg3 {
+    transform: rotate(180deg);
+}
+
+.padding {
+    padding: 20px;
+}
+
+.padding2 {
+    padding: 0px 20px 0px 20px;
+}
+
+.margin {
+}
+
+.btn_reserver {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background: none;
+    border: 0;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Arial Regular";
+    width: 80vw;
+}
+
+label {
+    font-family: "Arial Regular";
+    color: var(--rose);
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+input[type="text"], [type="email"], [type="date"] {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid var(--rose);
+    background-color: #d3cfe6;
+    margin: 10px;
+    color: var(--sega);
+    border-radius: 2px;
+    height: 30px;
+}
+
+input[type="checkbox"] {
+    background-color: red;
+    height: 200px;
+}
+
+.control {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 5px;
+    padding-top: 3px;
+    cursor: pointer;
+}
+
+.control>p{
+    text-transform: none;
+    font-family: 'Arial Regular';
+}
+.control input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.control_indicator {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background: var(--rose);
+    opacity: 0.3;
+    border: 0px solid #000000;
+    border-radius: 0px;
+    transition: all 0.3s;
+}
+.control:hover input ~ .control_indicator,
+.control input:focus ~ .control_indicator {
+    background: #cccccc;
+}
+
+.control input:checked ~ .control_indicator {
+    background: var(--rose);
+}
+.control:hover input:not([disabled]):checked ~ .control_indicator,
+.control input:checked:focus ~ .control_indicator {
+    background: #0e6647d;
+}
+.control input:disabled ~ .control_indicator {
+    background: #e6e6e6;
+    opacity: 0.6;
+    pointer-events: none;
+}
+.control_indicator:after {
+    box-sizing: unset;
+    content: "";
+    position: absolute;
+    display: none;
+}
+.control input:checked ~ .control_indicator:after {
+    display: block;
+}
+.control-checkbox .control_indicator:after {
+    left: 8px;
+    top: 4px;
+    width: 3px;
+    height: 8px;
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.control-checkbox input:disabled ~ .control_indicator:after {
+    border-color: #7b7b7b;
+}
+.control-checkbox .control_indicator::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-left: -1.3rem;
+    margin-top: -1.3rem;
+    background: var(--rose);
+    border-radius: 3rem;
+    opacity: 0.6;
+    z-index: 99999;
+    transform: scale(0);
+}
+@keyframes s-ripple {
+    0% {
+        transform: scale(0);
+    }
+    20% {
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+@keyframes s-ripple-dup {
+    0% {
+        transform: scale(0);
+    }
+    30% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+.control-checkbox input + .control_indicator::before {
+    animation: s-ripple 250ms ease-out;
+}
+.control-checkbox input:checked + .control_indicator::before {
+    animation-name: s-ripple-dup;
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+.form_check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+    content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: var(--rose); /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
